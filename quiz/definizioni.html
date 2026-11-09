@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz sulle definizioni</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <link href="../style.css" type="text/css" rel="stylesheet" />
+        <script src="../js/quiz.js"></script>
+    </head>
+    <body style="background-color: #111">
+        <div class="main-content quiz">
+            <h1 class="quiz-title">Quiz sulle definizioni</h1>
+            <div class="quiz-element">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/First_flight2.jpg/330px-First_flight2.jpg" />
+                <div class="quiz-element-text">
+                    <span>Il primo volo a motore della storia fu effettuato nel:</span>
+                    <br><br>
+
+                    <input type="radio" name="question0" value="wrong" />
+                    <label>1901</label><br>
+
+                    <input type="radio" name="question0" value="wrong" />
+                    <label>1913</label><br>
+
+                    <input type="radio" name="question0" value="right" />
+                    <label>1903</label><br>
+
+                    <input type="radio" name="question0" value="wrong" />
+                    <label>1657</label><br>
+                </div>
+            </div>
+            <div class="quiz-element">
+                <img src="https://www.chimica-online.it/fisica/immagini/ala-di-un-aereo.jpg" />
+                <div class="quiz-element-text">
+                    <span>La portanza NON è influenzata da:</span>
+                    <br><br>
+
+                    <input type="radio" name="question1" value="right" />
+                    <label>Massa</label><br>
+
+                    <input type="radio" name="question1" value="wrong" />
+                    <label>Superficie alare</label><br>
+
+                    <input type="radio" name="question1" value="wrong" />
+                    <label>Velocità</label><br>
+
+                    <input type="radio" name="question1" value="wrong" />
+                    <label>Altitudine</label><br>
+                </div>
+            </div>
+            <div class="quiz-element">
+                <img src="../images/runway.jpg" />
+                <div class="quiz-element-text">
+                    <span>Una pista orientata verso 58 gradi da Nord avrebbe come identificatore:</span>
+                    <br><br>
+
+                    <input type="radio" name="question2" value="wrong" />
+                    <label>60</label><br>
+
+                    <input type="radio" name="question2" value="wrong" />
+                    <label>05L</label><br>
+
+                    <input type="radio" name="question2" value="right" />
+                    <label>06</label><br>
+
+                    <input type="radio" name="question2" value="wrong" />
+                    <label>05R</label><br>
+                </div>
+            </div>
+            <div class="quiz-element">
+                <img src="https://aviationjeta.com/wp-content/uploads/2025/10/Cessna-172-Skyhawk-1024x683.jpeg" />
+                <div class="quiz-element-text">
+                    <span>Quale tipo di aeroplano si utilizza per un volo intercontinentale?</span>
+                    <br><br>
+
+                    <input type="radio" name="question3" value="wrong" />
+                    <label>Aereo da caccia</label><br>
+
+                    <input type="radio" name="question3" value="wrong" />
+                    <label>Jet airliner narrow-body</label><br>
+
+                    <input type="radio" name="question3" value="wrong" />
+                    <label>Monomotore</label><br>
+
+                    <input type="radio" name="question3" value="right" />
+                    <label>Jet airliner wide-body</label><br>
+                </div>
+            </div>
+            <div class="quiz-element">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtX5l_xCMYMR5_F3pDmeOyIt1QnzcTszS2RWJ5OZT0-8dhuyXWz2UxaAee" />
+                <div class="quiz-element-text">
+                    <span>La pressione dell'aria:</span>
+                    <br><br>
+
+                    <input type="radio" name="question4" value="wrong" />
+                    <label>Rimane sempre costante</label><br>
+
+                    <input type="radio" name="question4" value="wrong" />
+                    <label>Cresce all'aumentare dell'altitudine</label><br>
+
+                    <input type="radio" name="question4" value="right" />
+                    <label>Decresce all'aumentare dell'altitudine</label><br>
+
+                    <input type="radio" name="question4" value="wrong" />
+                    <label>Non esiste</label><br>
+                </div>
+            </div>
+            <button onclick="validate()">Verifica</button>
+            <span id="result"></span>
+        </div>
+        <div class="footer">
+            &copy; 2026 Simone Broili
+        </div>
+    </body>
+</html>
